@@ -1,0 +1,17 @@
+{
+  "name": "@vikiboss/prettier-config",
+  "version": "0.0.1",
+  "description": "Personal Prettier config",
+  "main": "index.js",
+  "keywords": [
+    "prettier",
+    "config",
+    "prettier-config"
+  ],
+  "author": {
+    "name": "Viki",
+    "email": "hi@viki.moe",
+    "url": "https://github.com/vikiboss"
+  },
+  "license": "MIT"
+}
