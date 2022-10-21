@@ -1,6 +1,6 @@
 {
   "name": "@vikiboss/prettier-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Personal Prettier config",
   "main": "index.js",
   "keywords": [
@@ -8,6 +8,11 @@
     "config",
     "prettier-config"
   ],
+  "homepage": "https://github.com/vikiboss/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikiboss/prettier-config.git"
+  },
   "author": {
     "name": "Viki",
     "email": "hi@viki.moe",
