@@ -6,10 +6,10 @@
 
 ```js
 module.exports = {
-  semi: false, 
+  semi: false,
   singleQuote: true,
-  arrowParens: "avoid",
-  htmlWhitespaceSensitivity: "strict",
+  arrowParens: 'avoid',
+  htmlWhitespaceSensitivity: 'strict',
   editorconfig: true,
 }
 ```
@@ -53,11 +53,11 @@ or you may want to **override** some rules based on it:
 ```js
 // .prettierrc.js
 module.exports = {
-  ...require("@vikiboss/prettier-config"),
+  ...require('@vikiboss/prettier-config'),
   semi: true,
   singleQuote: false,
-  arrowParens: "always",
-};
+  arrowParens: 'always',
+}
 ```
 
 ## License
