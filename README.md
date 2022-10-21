@@ -60,6 +60,17 @@ module.exports = {
 }
 ```
 
+## @vikiboss/prettier-config/fun
+
+You will like it, maybe. 🤣
+
+Just require config from `fun` and try it multiple times to see what will happen.
+
+```js
+// .prettierrc.js
+module.exports = require('@vikiboss/prettier-config/fun')
+```
+
 ## License
 
 [MIT](LICENSE) License © 2022-PRESENT Viki
