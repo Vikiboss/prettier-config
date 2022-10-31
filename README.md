@@ -6,11 +6,11 @@
 
 ```js
 module.exports = {
-  semi: false,
+  printWidth: 160,
   singleQuote: true,
-  arrowParens: 'avoid',
-  htmlWhitespaceSensitivity: 'strict'
-}
+  htmlWhitespaceSensitivity: 'strict',
+};
+
 ```
 
 For full defaults config fields, see [`defaults.json`](defaults.json).

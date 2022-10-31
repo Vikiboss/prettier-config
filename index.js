@@ -1,7 +1,6 @@
 module.exports = {
   // $schema: 'http://json.schemastore.org/prettierrc',
-  semi: false,
+  printWidth: 160,
   singleQuote: true,
-  arrowParens: 'avoid',
-  htmlWhitespaceSensitivity: 'strict'
-}
+  htmlWhitespaceSensitivity: 'strict',
+};
