@@ -10,7 +10,6 @@ module.exports = {
   singleQuote: true,
   htmlWhitespaceSensitivity: 'strict',
 };
-
 ```
 
 For full defaults config fields, see [`defaults.json`](defaults.json).
@@ -56,7 +55,7 @@ module.exports = {
   semi: true,
   singleQuote: false,
   arrowParens: 'always',
-}
+};
 ```
 
 ## @vikiboss/prettier-config/fun
@@ -67,7 +66,7 @@ Just require config from `fun` and try it multiple times to see what will happen
 
 ```js
 // .prettierrc.js
-module.exports = require('@vikiboss/prettier-config/fun')
+module.exports = require('@vikiboss/prettier-config/fun');
 ```
 
 ## License
