@@ -6,10 +6,13 @@
 
 ```js
 module.exports = {
-  printWidth: 160,
+  // $schema: 'http://json.schemastore.org/prettierrc',
+  semi: false,
+  printWidth: 100,
   singleQuote: true,
+  jsxSingleQuote: true,
   htmlWhitespaceSensitivity: 'strict',
-};
+}
 ```
 
 For full defaults config fields, see [`defaults.json`](defaults.json).

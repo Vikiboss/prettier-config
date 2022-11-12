@@ -1,6 +1,11 @@
+// schema: 'http://json.schemastore.org/prettierrc',
+
+/** @type {import('prettier').Config} */
 module.exports = {
-  // $schema: 'http://json.schemastore.org/prettierrc',
-  printWidth: 160,
-  singleQuote: true,
   htmlWhitespaceSensitivity: 'strict',
-};
+  jsxSingleQuote: true,
+  printWidth: 100,
+  semi: false,
+  singleQuote: true,
+  trailingComma: 'none'
+}
