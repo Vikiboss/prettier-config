@@ -6,12 +6,11 @@
 
 ```js
 module.exports = {
-  // $schema: 'http://json.schemastore.org/prettierrc',
   semi: false,
   printWidth: 100,
   singleQuote: true,
   jsxSingleQuote: true,
-  htmlWhitespaceSensitivity: 'strict',
+  htmlWhitespaceSensitivity: 'strict'
 }
 ```
 
@@ -57,8 +56,8 @@ module.exports = {
   ...require('@vikiboss/prettier-config'),
   semi: true,
   singleQuote: false,
-  arrowParens: 'always',
-};
+  arrowParens: 'always'
+}
 ```
 
 ## @vikiboss/prettier-config/fun
@@ -69,7 +68,7 @@ Just require config from `fun` and try it multiple times to see what will happen
 
 ```js
 // .prettierrc.js
-module.exports = require('@vikiboss/prettier-config/fun');
+module.exports = require('@vikiboss/prettier-config/fun')
 ```
 
 ## License
