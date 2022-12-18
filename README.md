@@ -1,20 +1,21 @@
 # @vikiboss/prettier-config
 
-> Personal [Prettier](https://prettier.io/) config
+> Viki's personal [Prettier](https://prettier.io/) config
 
 ## Features
 
 ```js
 module.exports = {
-  semi: false,
-  printWidth: 100,
-  singleQuote: true,
+  htmlWhitespaceSensitivity: 'strict',
   jsxSingleQuote: true,
-  htmlWhitespaceSensitivity: 'strict'
+  printWidth: 100,
+  semi: false,
+  singleQuote: true,
+  trailingComma: 'none'
 }
 ```
 
-For full defaults config fields, see [`defaults.json`](defaults.json).
+See full prettier default config fields, head to [`defaults.json`](defaults.json).
 
 ## Usage
 
@@ -28,21 +29,23 @@ npm i -D @vikiboss/prettier-config
 yarn add -D @vikiboss/prettier-config
 
 # pnpm
-pnpm i -D @vikiboss/prettier-config
+pnpm add -D @vikiboss/prettier-config
 ```
 
 ### Edit your config
 
 you can add `prettier` field to your `package.json`:
 
-```json
+```jsonc
 {
+  "name": "awesome-project",
   // ...
   "prettier": "@vikiboss/prettier-config"
+  // ...
 }
 ```
 
-or add a `.prettierrc` file that contains following strings:
+or you can also add a `.prettierrc` file that contains following strings:
 
 ```json
 "@vikiboss/prettier-config"
@@ -64,7 +67,7 @@ module.exports = {
 
 You will like it, maybe. 🤣
 
-Just require config from `fun` and try it multiple times to see what will happen.
+Just require config from the `fun` path and try it multiple times to see what will happen.
 
 ```js
 // .prettierrc.js
