@@ -26,5 +26,9 @@
   "license": "MIT",
   "peerDependencies": {
     "prettier": "^2.8.7"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
