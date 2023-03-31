@@ -1,6 +1,6 @@
-# @vikiboss/prettier-config
+# @vmoe/prettier-config
 
-> Viki's personal [Prettier](https://prettier.io/) config
+> Viki's shareable [Prettier](https://prettier.io/) config.
 
 ## Features
 
@@ -11,7 +11,8 @@ module.exports = {
   printWidth: 100,
   semi: false,
   singleQuote: true,
-  trailingComma: 'none'
+  trailingComma: 'none',
+  arrowParens: 'avoid'
 }
 ```
 
@@ -23,13 +24,13 @@ See full prettier default config fields, head to [`defaults.json`](defaults.json
 
 ```bash
 # npm
-npm i -D @vikiboss/prettier-config
+npm i -D @vmoe/prettier-config
 
 # yarn
-yarn add -D @vikiboss/prettier-config
+yarn add -D @vmoe/prettier-config
 
 # pnpm
-pnpm add -D @vikiboss/prettier-config
+pnpm add -D @vmoe/prettier-config
 ```
 
 ### Edit your config
@@ -40,15 +41,15 @@ you can add `prettier` field to your `package.json`:
 {
   "name": "awesome-project",
   // ...
-  "prettier": "@vikiboss/prettier-config"
+  "prettier": "@vmoe/prettier-config"
   // ...
 }
 ```
 
-or you can also add a `.prettierrc` file that contains following strings:
+or you can also add a `.prettierrc` file that contains following string:
 
 ```json
-"@vikiboss/prettier-config"
+"@vmoe/prettier-config"
 ```
 
 or you may want to **override** some rules based on it:
@@ -56,14 +57,14 @@ or you may want to **override** some rules based on it:
 ```js
 // .prettierrc.js
 module.exports = {
-  ...require('@vikiboss/prettier-config'),
+  ...require('@vmoe/prettier-config'),
   semi: true,
   singleQuote: false,
   arrowParens: 'always'
 }
 ```
 
-## @vikiboss/prettier-config/fun
+## @vmoe/prettier-config/fun
 
 You will like it, maybe. 🤣
 
@@ -71,7 +72,7 @@ Just require config from the `fun` path and try it multiple times to see what wi
 
 ```js
 // .prettierrc.js
-module.exports = require('@vikiboss/prettier-config/fun')
+module.exports = require('@vmoe/prettier-config/fun')
 ```
 
 ## License
