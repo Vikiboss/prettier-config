@@ -1,5 +1,5 @@
 {
-  "name": "@vikiboss/prettier-config",
+  "name": "@vmoe/prettier-config",
   "version": "1.0.0",
   "description": "Viki's shareable Prettier config.",
   "main": "index.js",
