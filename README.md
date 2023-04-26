@@ -16,6 +16,20 @@ module.exports = {
 }
 ```
 
+or in json
+
+```json
+{
+  "htmlWhitespaceSensitivity": "strict",
+  "jsxSingleQuote": true,
+  "printWidth": 100,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "arrowParens": "avoid"
+}
+```
+
 See full prettier default config fields, head to [`defaults.json`](defaults.json).
 
 ## Usage
