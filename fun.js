@@ -1,7 +1,7 @@
-// from https://github.com/Pettier/pettier
+/** @from https://github.com/pettier/pettier */
 
 function coinFlip() {
-  return Math.random() > 0.5;
+  return Math.random() > 0.5
 }
 
 module.exports = {
@@ -14,4 +14,4 @@ module.exports = {
   bracketSpacing: coinFlip(),
   semi: coinFlip(),
   jsxBracketSameLine: coinFlip(),
-};
+}

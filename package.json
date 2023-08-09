@@ -1,6 +1,6 @@
 {
   "name": "@vmoe/prettier-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Viki's shareable Prettier config.",
   "main": "index.js",
   "author": {
@@ -9,7 +9,7 @@
     "url": "https://github.com/vikiboss"
   },
   "homepage": "https://github.com/vikiboss/prettier-config#readme",
-  "repository": "vikiboss/prettier-config",
+  "repository": "git@github:vikiboss/prettier-config",
   "exports": {
     ".": "./index.js",
     "./fun": "./fun.js"
@@ -25,7 +25,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "prettier": "^2.8.7"
+    "prettier": "^2 || ^3"
   },
   "publishConfig": {
     "access": "public",

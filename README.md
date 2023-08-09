@@ -1,36 +1,20 @@
 # @vmoe/prettier-config
 
-> Viki's shareable [Prettier](https://prettier.io/) config.
+> Viki's shareable [Prettier](https://prettier.io) config.
 
 ## Features
 
 ```js
 module.exports = {
   htmlWhitespaceSensitivity: 'strict',
-  jsxSingleQuote: true,
+  vueIndentScriptAndStyle: true,
   printWidth: 100,
   semi: false,
   singleQuote: true,
-  trailingComma: 'none',
-  arrowParens: 'avoid'
 }
 ```
 
-or in json
-
-```json
-{
-  "htmlWhitespaceSensitivity": "strict",
-  "jsxSingleQuote": true,
-  "printWidth": 100,
-  "semi": false,
-  "singleQuote": true,
-  "trailingComma": "none",
-  "arrowParens": "avoid"
-}
-```
-
-See full prettier default config fields, head to [`defaults.json`](defaults.json).
+For full prettier default config, head to [`defaults.json`](defaults.json).
 
 ## Usage
 
@@ -49,7 +33,7 @@ pnpm add -D @vmoe/prettier-config
 
 ### Edit your config
 
-you can add `prettier` field to your `package.json`:
+add `prettier` field to your `package.json`:
 
 ```jsonc
 {
@@ -60,7 +44,7 @@ you can add `prettier` field to your `package.json`:
 }
 ```
 
-or you can also add a `.prettierrc` file that contains following string:
+or add a `.prettierrc` file that contains following string:
 
 ```json
 "@vmoe/prettier-config"
@@ -74,7 +58,6 @@ module.exports = {
   ...require('@vmoe/prettier-config'),
   semi: true,
   singleQuote: false,
-  arrowParens: 'always'
 }
 ```
 
