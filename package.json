@@ -8,6 +8,9 @@
     "email": "hi@viki.moe",
     "url": "https://github.com/vikiboss"
   },
+  "scripts": {
+    "release": "npm publish"
+  },
   "homepage": "https://github.com/vikiboss/prettier-config#readme",
   "repository": "git@github:vikiboss/prettier-config",
   "exports": {
